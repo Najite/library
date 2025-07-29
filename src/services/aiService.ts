@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const AI_API_BASE_URL = 'https://openrouter.ai/api/v1/chat/completions';
-const AI_API_KEY = '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';
+const AI_API_KEY = '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';
 
 export interface AIRecommendation {
   enhancedQuery: string;
